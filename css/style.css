@@ -1,0 +1,170 @@
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+main p , main ul {
+    text-align: left;
+    font-family:Arial, sans-serif;
+    font-size: 1.2em;
+    display: block;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+div p {
+   font-size: 25px;
+   font-family:Arial, sans-serif;
+   text-align:center;
+}
+
+
+
+
+
+div img{
+    width:70vw;
+    height: 40vh;
+    display:block;
+    margin:0 auto;
+    border: #383434 solid 5px;
+    border-radius: 5%;
+}
+
+@media screen and (min-width: 772px) {
+    div img{
+        max-width:35vw ;
+    }
+    
+    div {
+        width: 45vw;
+        display: inline-block;
+    }
+    
+}
+
+
+@media screen and (min-width: 998px) {
+    div img{
+        max-width:30vw ;
+    }
+    
+    div {
+        width: 30vw;
+        display: inline-block;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
